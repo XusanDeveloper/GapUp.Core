@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GapUp.Api", "GapUp.Api\GapUp.Api.csproj", "{D3B147D6-4521-475A-97BB-0489BF5B720B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GapUp.Api.Infrastructure.Build", "GapUp.Api.Infrastructure.Build\GapUp.Api.Infrastructure.Build.csproj", "{718C30A9-42E7-42F7-83E9-9C4352FA5213}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D3B147D6-4521-475A-97BB-0489BF5B720B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3B147D6-4521-475A-97BB-0489BF5B720B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3B147D6-4521-475A-97BB-0489BF5B720B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{718C30A9-42E7-42F7-83E9-9C4352FA5213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718C30A9-42E7-42F7-83E9-9C4352FA5213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718C30A9-42E7-42F7-83E9-9C4352FA5213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718C30A9-42E7-42F7-83E9-9C4352FA5213}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
