@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GapUp.Api.Models
+namespace GapUp.Api.Models.Products
 {
     public class Product
     {
@@ -11,6 +11,6 @@ namespace GapUp.Api.Models
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
         public DateTime CreatedUserId { get; set; }
-        public DateTime UpdateUserId { get; set; }
+        public DateTime UpdatedUserId { get; set; }
     }
 }
