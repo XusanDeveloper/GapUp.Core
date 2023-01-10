@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 using System;
-using GapUp.Api.Models;
+using GapUp.Api.Models.Products;
 
 namespace GapUp.Api.Brokers.Storages
 {
