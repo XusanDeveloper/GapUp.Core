@@ -1,4 +1,8 @@
+using FluentAssertions.Common;
+using GapUp.Api.Brokers.DateTimes;
+using GapUp.Api.Brokers.Loggings;
 using GapUp.Api.Brokers.Storages;
+using GapUp.Api.Services.Foundations.Products;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -19,7 +23,10 @@ namespace GapUp.Api
         {
             services.AddControllers();
             services.AddDbContext<StorageBroker>();
-            services.AddTransient<IStorageBroker, StorageBroker>();
+            services.AddScoped<IStorageBroker, StorageBroker>();
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ILoggingBroker, LoggingBroker>();
+            services.AddScoped<IDateTimeBroker, DateTimeBroker>();
 
             services.AddSwaggerGen(config =>
             {
